@@ -1,4 +1,5 @@
-﻿using porgKorny_WPF_beadando.ViewModel;
+﻿using porgKorny_WPF_beadando.Services;
+using porgKorny_WPF_beadando.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace porgKorny_WPF_beadando.View
         public LoginView()
         {
             InitializeComponent();
-            DataContext = new LoginView();
+          DataContext = new LoginViewModel();
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -46,10 +47,12 @@ namespace porgKorny_WPF_beadando.View
 
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
+
             if (DataContext is LoginViewModel vm)
             {
                 vm.Password = passwordTextBox.Password;
             }
+
         }
 
         private void UsernameBox_UsernamChanged(object sender, RoutedEventArgs e)
@@ -58,6 +61,21 @@ namespace porgKorny_WPF_beadando.View
             {
                 vm.Username = usernameTextBox.Text;
             }
+
+        }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (UserDatabase.Instance.CheckUserCredentials(((LoginViewModel)DataContext).Username, ((LoginViewModel)DataContext).Password))
+            {
+                MessageBox.Show($"Welcome back {((LoginViewModel)DataContext).Username}", "Succesful Login", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else
+            {
+                MessageBox.Show($"Wrong username or password", "Login error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+            
         }
     }
 }

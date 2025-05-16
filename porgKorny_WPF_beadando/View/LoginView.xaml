@@ -130,6 +130,7 @@
                          FontFamily="Montserrat"
                            FontSize="18"
                         BorderThickness="0"
+                        Click="LoginButton_Click"
                         >
                          
 
