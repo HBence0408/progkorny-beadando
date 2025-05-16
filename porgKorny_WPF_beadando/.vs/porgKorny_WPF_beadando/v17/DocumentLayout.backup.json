@@ -3,28 +3,126 @@
   "WorkspaceRootPath": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HBence\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\porgkorny_wpf_beadando.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:porgkorny_wpf_beadando.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 169,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T12:18:06.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:24:14.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\HBence\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\HBence\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\HBence\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\HBence\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "ViewState": "AgIAABcAAAAAAAAAAAAMwCcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:20:29.127Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "View\\LoginView.xaml",
+              "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml",
+              "RelativeToolTip": "View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T12:17:54.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "porgKorny_WPF_beadando",
+              "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\porgKorny_WPF_beadando.csproj",
+              "RelativeDocumentMoniker": "porgKorny_WPF_beadando.csproj",
+              "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\porgKorny_WPF_beadando.csproj",
+              "RelativeToolTip": "porgKorny_WPF_beadando.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T12:16:24.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T10:46:36.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T10:46:34.28Z",
               "EditorCaption": ""

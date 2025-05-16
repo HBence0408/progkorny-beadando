@@ -1,0 +1,144 @@
+﻿<Window x:Class="porgKorny_WPF_beadando.View.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:porgKorny_WPF_beadando.ViewModel"
+        xmlns:local="clr-namespace:porgKorny_WPF_beadando.View"
+        mc:Ignorable="d"
+        Title="LoginView" Height="550" Width="400"
+        WindowStyle="None" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        MouseDown="Window_MouseDown"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    
+    <Border CornerRadius="50" BorderThickness="6">
+        <Border.Effect>
+            <BlurEffect Radius="2"/>
+        </Border.Effect>
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#2C003E" Offset="0"/>
+
+                <GradientStop Color="#5A003C" Offset="0.3"/>
+
+                <GradientStop Color="#FF003C" Offset="0.6"/>
+
+                <GradientStop Color="#5A003C" Offset="0.4"/>
+
+                <GradientStop Color="#2C003F" Offset="1"/>
+
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="#0D0D0D" Offset="0"/>
+                <!-- Majdnem fekete -->
+                <GradientStop Color="#1A1A2E" Offset="0.75"/>
+                <!-- Sötétkék/lila -->
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid Margin="-4,4,4,-4">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="30">
+
+                </RowDefinition>
+                <RowDefinition>
+
+                </RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Margin="23,10,-23,498" Grid.RowSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="25"></ColumnDefinition>
+                    <ColumnDefinition  Width="25"></ColumnDefinition>
+                    <ColumnDefinition  Width="35"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="minimizeButton"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        BorderBrush="#5A003C"
+                        Content="-"
+                        Foreground="White"
+                        FontSize="16"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        Grid.Column="1"
+                        Click="minimizeButton_Click">
+
+
+                </Button>
+                <Button x:Name="closeButton"
+                    Background="Transparent"
+                     BorderThickness="0"
+                        BorderBrush="#5A003C"
+                     Content="x"
+                      Foreground="White"
+                      FontSize="16"
+                       FontFamily="Montserrat"
+                       Cursor="Hand"
+                       Grid.Column="2"
+                   Click ="closeButton_Click">
+                </Button>
+
+            </Grid>
+
+            <StackPanel
+                Width="250" Margin="69,49,69,31" Grid.Row="1">
+                <TextBlock Height="45"
+                           Foreground="#FF003C"
+                           FontFamily="Montserrat"
+                           FontSize="25"
+                           HorizontalAlignment="Center"
+                           Text="Outer Rim Exchange"/>
+
+                <TextBlock Height="50"></TextBlock>
+                <TextBlock 
+                    Foreground="White"
+                    FontFamily="Montserrat"
+                    FontSize="25"
+                    HorizontalAlignment="Center"
+                    Text="Login" Height="50"></TextBlock>
+
+                <TextBox x:Name="usernameTextBox"
+                         Background="#5A003C"
+                        BorderThickness="0,0,0,3"
+                         FontSize="20"
+                         TextChanged="UsernameBox_UsernamChanged"
+                         BorderBrush="#2C003F"></TextBox>
+
+                <TextBlock Height="50"></TextBlock>
+                <PasswordBox x:Name="passwordTextBox"
+         Background="#5A003C"
+        BorderThickness="0,0,0,3"
+         FontSize="20"
+         BorderBrush="#2C003F"
+             PasswordChanged="PasswordBox_PasswordChanged"                 ></PasswordBox>
+
+                <TextBlock Height="50"></TextBlock>
+                
+                <Button x:Name="LoginButton"
+                        Background="#2C003E" Height="43" Width="214"
+                        Content="Enter the market"
+                         FontFamily="Montserrat"
+                           FontSize="18"
+                        BorderThickness="0"
+                        >
+                         
+
+                </Button>
+
+            </StackPanel>
+        </Grid>
+
+    </Border>
+
+
+</Window>
