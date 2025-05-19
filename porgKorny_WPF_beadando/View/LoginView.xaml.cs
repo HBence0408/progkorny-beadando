@@ -69,6 +69,9 @@ namespace porgKorny_WPF_beadando.View
             if (UserDatabase.Instance.CheckUserCredentials(((LoginViewModel)DataContext).Username, ((LoginViewModel)DataContext).Password))
             {
                 MessageBox.Show($"Welcome back {((LoginViewModel)DataContext).Username}", "Succesful Login", MessageBoxButton.OK, MessageBoxImage.Information);
+                MarketView marketView = new MarketView(((LoginViewModel)DataContext).Username);
+                marketView.Show();
+                this.Close();
             }
             else
             {

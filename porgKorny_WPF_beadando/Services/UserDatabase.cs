@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql;
 using MySql.Data.MySqlClient;
+using porgKorny_WPF_beadando.Model;
 
 namespace porgKorny_WPF_beadando.Services
 {
@@ -69,5 +70,28 @@ namespace porgKorny_WPF_beadando.Services
                 }
             }
         }
+
+        public User LoadUserData(string userId)
+        {
+            using var conn = new MySqlConnection(base.connectionString);
+            conn.Open();
+
+            var cmd = new MySqlCommand("SELECT * FROM users WHERE name = @userId", conn);
+            cmd.Parameters.AddWithValue("@userId", userId);
+
+            using var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                return new User
+                {
+                    UserName = reader["name"].ToString(),
+                    Balance = (int)Convert.ToDecimal(reader["money"])
+                };
+            }
+
+            return null;
+        }
+
+
     }
 }

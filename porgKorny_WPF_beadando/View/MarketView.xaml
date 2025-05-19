@@ -1,0 +1,255 @@
+﻿<Window x:Class="porgKorny_WPF_beadando.View.MarketView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:porgKorny_WPF_beadando.View"
+        mc:Ignorable="d"
+        Title="MarketView" Height="800" Width="1200"
+    WindowStyle="None" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        MouseDown="Window_MouseDown"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+
+    <Border CornerRadius="0" BorderThickness="6">
+        <Border.Effect>
+            <BlurEffect Radius="2"/>
+        </Border.Effect>
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#2C003E" Offset="0"/>
+
+                <GradientStop Color="#5A003C" Offset="0.3"/>
+
+                <GradientStop Color="#FF003C" Offset="0.6"/>
+
+                <GradientStop Color="#5A003C" Offset="0.4"/>
+
+                <GradientStop Color="#2C003F" Offset="1"/>
+
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="#0D0D0D" Offset="0"/>
+                <!-- Majdnem fekete -->
+                <GradientStop Color="#1A1A2E" Offset="0.75"/>
+                <!-- Sötétkék/lila -->
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid Margin="-4,4,4,-4">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="58">
+
+                </RowDefinition>
+                <RowDefinition>
+
+                </RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Margin="23,10,-27,23">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="6"></ColumnDefinition>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition  Width="25"></ColumnDefinition>
+                    <ColumnDefinition  Width="35"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <TextBlock Height="45"
+           Foreground="#FF003C"
+           FontFamily="Montserrat"
+           FontSize="25"
+           HorizontalAlignment="Center"
+           Text="{Binding Balance, StringFormat={}{0:C}}"/>
+            
+
+                <Button x:Name="minimizeButton"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    BorderBrush="#5A003C"
+                    Content="-"
+                    Foreground="White"
+                    FontSize="16"
+                    FontFamily="Montserrat"
+                    Cursor="Hand"
+                    Grid.Column="1"
+                    Click="minimizeButton_Click" Grid.ColumnSpan="2">
+
+
+                </Button>
+                <Button x:Name="closeButton"
+                Background="Transparent"
+                 BorderThickness="0"
+                    BorderBrush="#5A003C"
+                 Content="x"
+                  Foreground="White"
+                  FontSize="16"
+                   FontFamily="Montserrat"
+                   Cursor="Hand"
+                   Grid.Column="3"
+               Click ="closeButton_Click">
+                </Button>
+
+            </Grid>
+
+            <TabControl Margin="10,50,10,20" Grid.RowSpan="2"
+                        Background="#2C003F"
+                         BorderThickness="0">
+                <!-- Post Ad Tab -->
+                <TabItem Header="Post Ad"
+                         Background="#2C003F"
+                        BorderThickness="0"
+                         BorderBrush="#FF750037" Height="22" Margin="-2,-2,-2,0" VerticalAlignment="Top">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="92*"/>
+                            <ColumnDefinition Width="581*"/>
+                            <ColumnDefinition Width="73*"/>
+                            <ColumnDefinition Width="396*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Orientation="Vertical" Margin="0,0,0,10" Grid.ColumnSpan="4">
+
+                            <Button Content="Add Ad" Command="{Binding AddAdCommand}"
+                                    Background="#5A003C"
+                                    BorderThickness="0"
+                                    Width="100"
+                                    Click="AddAd_Click"/>
+                        </StackPanel>
+
+                        <ListView Grid.Row="1" ItemsSource="{Binding Ads}" Grid.ColumnSpan="4"
+                                                                     BorderThickness="0"
+                                  Background="#FF361131" Foreground="White">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" />
+                                    <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}" />
+                                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price}" />
+                                   
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </TabItem>
+
+                <!-- Search Ads Tab -->
+                <TabItem Header="Search Ads"
+                           Background="#2C003F"  BorderThickness="0"
+  BorderBrush="#FF750037" Height="22" Margin="-2,-2,-2,0" VerticalAlignment="Top">
+                    <Grid Margin="10"
+                                                             
+                                  Background="#FF361131">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="7*"/>
+                            <ColumnDefinition Width="18*"/>
+                            <ColumnDefinition Width="1117*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Search bar -->
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" Grid.ColumnSpan="3">
+
+                           
+                            <Button Content="Search" Command="{Binding SearchCommand}"
+                                    Background="#5A003C"
+                                    Click="Search_Click"
+ BorderThickness="0" />
+                            <TextBox x:Name="SearchTextBox"
+                                     
+                                      TextChanged="SearchTextBox_TextChanged"
+          Background="#5A003C"
+         BorderThickness="0,0,0,3"
+          FontSize="20"
+Margin="10,0,0,0"
+          BorderBrush="#2C003F" Width="1000"/>
+                        </StackPanel>
+
+                        <!-- Search results -->
+                        <!--<ListView Grid.Row="1" ItemsSource="{Binding SearchResults}" Grid.ColumnSpan="3"
+                                   BorderThickness="0"
+                                  Background="#FF361131">
+                            <ListView.View >
+                                <GridView >
+                                    <GridViewColumn  Header="Title" DisplayMemberBinding="{Binding Title}"  />
+                                    <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}" />
+                                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price}" />
+                                    
+                                </GridView>
+                            </ListView.View>
+                        </ListView>-->
+
+                        <ListView Grid.Row="1" ItemsSource="{Binding SearchResults}" Grid.ColumnSpan="3"
+          BorderThickness="0"
+          Background="#FF361131">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Title">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding Title}" Foreground="White"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+
+                                    <GridViewColumn Header="Description">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding Description}" Foreground="White"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+
+                                    <GridViewColumn Header="Price">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding Price}" Foreground="White"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+
+                                    <GridViewColumn Header="Owner">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding UserName}" Foreground="White"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+
+                                    <GridViewColumn Header="Buy">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Button Content="Buy" 
+                                Command="{Binding DataContext.PurchaseAdCommand, RelativeSource={RelativeSource AncestorType=ListView}}"
+                                CommandParameter="{Binding}" 
+                                                       
+                                Background="#5A003C" Foreground="White" Padding="5,2"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+
+                    </Grid>
+                </TabItem>
+            </TabControl>
+
+        </Grid>
+
+
+    </Border>
+
+</Window>
