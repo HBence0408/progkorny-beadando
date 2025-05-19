@@ -108,11 +108,12 @@
                     Text="Login" Height="50"></TextBlock>
 
                 <TextBox x:Name="usernameTextBox"
-                         Background="#5A003C"
+                        
                         BorderThickness="0,0,0,3"
                          FontSize="20"
                          TextChanged="UsernameBox_UsernamChanged"
-                         BorderBrush="#2C003F"></TextBox>
+                         BorderBrush="#2C003F"
+                          Background="#5A003C"></TextBox>
 
                 <TextBlock Height="50"></TextBlock>
                 <PasswordBox x:Name="passwordTextBox"

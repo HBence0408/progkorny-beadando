@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\viewmodel\\marketplaceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:viewmodel\\marketplaceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:services\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -88,12 +88,12 @@
       "VerticalTabListWidth": 194,
       "DocumentGroups": [
         {
-          "DockedWidth": 252,
+          "DockedWidth": 194,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Services\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Services\\RelayCommand.cs",
@@ -119,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Ad.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Model\\Ad.cs",
               "RelativeDocumentMoniker": "Model\\Ad.cs",
@@ -132,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MarketPlaceViewModel.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\ViewModel\\MarketPlaceViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\MarketPlaceViewModel.cs",
@@ -145,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MarketView.xaml",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\MarketView.xaml",
               "RelativeDocumentMoniker": "View\\MarketView.xaml",
@@ -159,12 +159,12 @@
           ]
         },
         {
-          "DockedWidth": 148,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 206,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AdDatabase.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Services\\AdDatabase.cs",
               "RelativeDocumentMoniker": "Services\\AdDatabase.cs",
@@ -177,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "AddAdWindow.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\AddAdWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\AddAdWindow.xaml.cs",
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "AddAdWindow.xaml",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\AddAdWindow.xaml",
               "RelativeDocumentMoniker": "View\\AddAdWindow.xaml",
@@ -202,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MarketView.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\MarketView.xaml.cs",
               "RelativeDocumentMoniker": "View\\MarketView.xaml.cs",
@@ -215,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MarketView.xaml",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\MarketView.xaml",
               "RelativeDocumentMoniker": "View\\MarketView.xaml",
@@ -227,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserDatabase.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Services\\UserDatabase.cs",
               "RelativeDocumentMoniker": "Services\\UserDatabase.cs",
@@ -240,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -265,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Services\\Database.cs",
               "RelativeDocumentMoniker": "Services\\Database.cs",
@@ -278,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
@@ -303,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoginView.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml.cs",
               "RelativeDocumentMoniker": "View\\LoginView.xaml.cs",
@@ -328,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml",
               "RelativeDocumentMoniker": "View\\LoginView.xaml",
