@@ -8,7 +8,7 @@
         Title="AddAdWindow" Height="450" Width="800"
                 WindowStyle="None" ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
-        MouseDown="Window_MouseDown"
+      
         Background="Transparent"
         AllowsTransparency="True">
 

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\viewmodel\\marketplaceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:viewmodel\\marketplaceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\services\\addatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:services\\addatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\services\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:services\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\addadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\marketview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,20 +35,16 @@
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\marketview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\services\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:services\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|solutionrelative:view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE4CE549-31AC-49D8-857E-C3526CCEB4D7}|porgKorny_WPF_beadando.csproj|c:\\minden\\programs\\progkorny-beadando\\porgkorny_wpf_beadando\\model\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -88,12 +88,12 @@
       "VerticalTabListWidth": 194,
       "DocumentGroups": [
         {
-          "DockedWidth": 194,
+          "DockedWidth": 213,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
@@ -101,8 +101,7 @@
               "RelativeToolTip": "Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T07:20:05.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T07:20:05.276Z"
             },
             {
               "$type": "Document",
@@ -114,8 +113,7 @@
               "RelativeToolTip": "Services\\RelayCommand.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:19:24.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T22:19:24.708Z"
             },
             {
               "$type": "Document",
@@ -127,18 +125,17 @@
               "RelativeToolTip": "Model\\Ad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:16:00.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T22:16:00.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MarketPlaceViewModel.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\ViewModel\\MarketPlaceViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\MarketPlaceViewModel.cs",
               "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\ViewModel\\MarketPlaceViewModel.cs",
               "RelativeToolTip": "ViewModel\\MarketPlaceViewModel.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T22:15:41.016Z",
               "EditorCaption": ""
@@ -153,31 +150,30 @@
               "RelativeToolTip": "View\\MarketView.xaml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAkwIsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T19:39:02.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T19:39:02.906Z"
             }
           ]
         },
         {
-          "DockedWidth": 206,
+          "DockedWidth": 187,
           "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AdDatabase.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Services\\AdDatabase.cs",
               "RelativeDocumentMoniker": "Services\\AdDatabase.cs",
               "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Services\\AdDatabase.cs",
               "RelativeToolTip": "Services\\AdDatabase.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAwGcAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T07:26:49.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AddAdWindow.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\AddAdWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\AddAdWindow.xaml.cs",
@@ -185,12 +181,11 @@
               "RelativeToolTip": "View\\AddAdWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:30:54.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T22:30:54.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddAdWindow.xaml",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\AddAdWindow.xaml",
               "RelativeDocumentMoniker": "View\\AddAdWindow.xaml",
@@ -202,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MarketView.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\MarketView.xaml.cs",
               "RelativeDocumentMoniker": "View\\MarketView.xaml.cs",
@@ -210,24 +205,22 @@
               "RelativeToolTip": "View\\MarketView.xaml.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAIwEwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T19:00:48.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T19:00:48.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MarketView.xaml",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\MarketView.xaml",
               "RelativeDocumentMoniker": "View\\MarketView.xaml",
               "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\MarketView.xaml",
               "RelativeToolTip": "View\\MarketView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T18:22:40.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T18:22:40.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UserDatabase.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\Services\\UserDatabase.cs",
               "RelativeDocumentMoniker": "Services\\UserDatabase.cs",
@@ -235,8 +228,7 @@
               "RelativeToolTip": "Services\\UserDatabase.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAQwFcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T16:49:09.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T16:49:09.57Z"
             },
             {
               "$type": "Document",
@@ -248,8 +240,7 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T16:22:18.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T16:22:18.611Z"
             },
             {
               "$type": "Document",
@@ -273,12 +264,11 @@
               "RelativeToolTip": "Services\\Database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T16:10:30.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T16:10:30.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
@@ -286,8 +276,7 @@
               "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwBMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T14:37:07.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T14:37:07.974Z"
             },
             {
               "$type": "Document",
@@ -303,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "LoginView.xaml.cs",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml.cs",
               "RelativeDocumentMoniker": "View\\LoginView.xaml.cs",
@@ -311,8 +300,7 @@
               "RelativeToolTip": "View\\LoginView.xaml.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:24:14.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:24:14.862Z"
             },
             {
               "$type": "Document",
@@ -328,15 +316,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml",
               "RelativeDocumentMoniker": "View\\LoginView.xaml",
               "ToolTip": "C:\\minden\\programs\\progkorny-beadando\\porgKorny_WPF_beadando\\View\\LoginView.xaml",
               "RelativeToolTip": "View\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T12:17:54.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:17:54.039Z"
             },
             {
               "$type": "Document",

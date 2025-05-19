@@ -115,7 +115,7 @@ public class MarketplaceViewModel : INotifyPropertyChanged
        // MessageBox.Show($"Buy clicked for: {ad.Id}");
         if (CurrentUser.Balance < ad.Price) return;
 
-        if (AdDatabase.Instance.PurchaseAd(ad.Id, ad.Price, CurrentUser.UserName))
+        if (AdDatabase.Instance.PurchaseAd(ad.Id, ad.Price, CurrentUser.UserName, ad.UserName))
         {
             Balance -= ad.Price;
             SearchResults.Remove(ad);

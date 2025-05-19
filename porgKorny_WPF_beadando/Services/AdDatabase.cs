@@ -93,7 +93,7 @@ namespace porgKorny_WPF_beadando.Services
             cmd.ExecuteNonQuery();
         }
 
-        public bool PurchaseAd(int adId, decimal price, string userId)
+        public bool PurchaseAd(int adId, decimal price, string userId, string seller)
         {
             using var conn = new MySqlConnection(base.connectionString);
             conn.Open();
@@ -105,6 +105,11 @@ namespace porgKorny_WPF_beadando.Services
                 deductCmd.Parameters.AddWithValue("@price", (int)price);
                 deductCmd.Parameters.AddWithValue("@userId", userId);
                 deductCmd.ExecuteNonQuery();
+
+                var sellerdeductCmd = new MySqlCommand("UPDATE users SET money = money + @price WHERE name = @userId", conn, transaction);
+                sellerdeductCmd.Parameters.AddWithValue("@price", (int)price);
+                sellerdeductCmd.Parameters.AddWithValue("@userId", seller);
+                sellerdeductCmd.ExecuteNonQuery();
 
                 var deleteCmd = new MySqlCommand("DELETE FROM ads WHERE id = @adId", conn, transaction);
                 deleteCmd.Parameters.AddWithValue("@adId", adId);
